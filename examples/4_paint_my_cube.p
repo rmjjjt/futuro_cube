@@ -24,7 +24,7 @@ new history[54 * 10]
 draw(drawc = 1)
 {
   ClearCanvas()
-  /* draw painting */
+  // draw painting
   for (new i = 0; i < 54; i++)
   {
     SetColor(cube[i])
