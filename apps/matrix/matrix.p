@@ -6,9 +6,9 @@ new cursorSide
 new square = 0
 
 // Set a green 'M' as the icon
-new icon[]=[ICON_MAGIC1,ICON_MAGIC2,1,4,
-	cGREEN,0,cGREEN,cGREEN,cGREEN,cGREEN,cGREEN,0,cGREEN,
-	'''','''']
+new icon[] = [ICON_MAGIC1, ICON_MAGIC2, 1, 4,
+	cGREEN,0, cGREEN, cGREEN, cGREEN, cGREEN, cGREEN, 0, cGREEN,
+	'''', '''']
 
 main()
 {
