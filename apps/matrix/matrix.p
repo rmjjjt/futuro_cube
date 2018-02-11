@@ -21,28 +21,23 @@ main()
     for(;;) {
       lightSide(cursorSide, square)
       Delay(50)
-      if(square == 0) {
-        square = 3
-      } else if(square == 1) {
-        square = 4
-      } else if(square == 2) {
-        square = 5
-      } else if(square == 3) {
-        square = 6
-      } else if(square == 4) {
-        square = 7
-      } else if(square == 5) {
-        square = 8
-      } else if(square == 6) {
-        square = 1
-      } else if(square == 7) {
-        square = 2
-      } else if(square == 8) {
-        square = 0
-        if (cursorSide == 5) {
-          cursorSide = 0
-        } else {
-          cursorSide++
+      switch (square)
+      {
+        case 0: square = 3
+        case 1: square = 4
+        case 2: square = 5
+        case 3: square = 6
+        case 4: square = 7
+        case 5: square = 8
+        case 6: square = 1
+        case 7: square = 4
+        case 8: {
+          square = 0
+          if (cursorSide == 5) {
+            cursorSide = 0
+          } else {
+            cursorSide++
+          }
         }
       }
       printf("cursor side: %d\r\n", cursorSide)
