@@ -1,6 +1,6 @@
-# Matrix
+# Motion Matrix
 
-This app will create a Matrix-style waterfall of green lights around the cube constantly until you
-exit the app with a menu gesture. 
+This app creates a Matrix-style waterfall of green lights on the highest side. If you rotate the 
+cube, the new highest side will have the light show.
 
-It will install to the green menu, position four.
+It will install to the green menu, position 5.
