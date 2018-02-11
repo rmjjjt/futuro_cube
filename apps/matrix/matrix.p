@@ -40,7 +40,6 @@ main()
           }
         }
       }
-      printf("cursor side: %d\r\n", cursorSide)
     }
   }
 }
