@@ -6,6 +6,8 @@ They have been tidied, indentation amended, spellings corrected and spaced out f
 
 Other than this, they are as they were initially. 
 
+Videos of these examples can be found[here](https://www.youtube.com/user/rubiksfuturocube/videos)
+
 ## Installation/Instructions
 
 To follow...
