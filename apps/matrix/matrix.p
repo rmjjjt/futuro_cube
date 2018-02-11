@@ -30,7 +30,7 @@ main()
         case 4: square = 7
         case 5: square = 8
         case 6: square = 1
-        case 7: square = 4
+        case 7: square = 2
         case 8: {
           square = 0
           if (cursorSide == 5) {
